@@ -83,18 +83,18 @@ class ViewController: UIViewController {
         
         let answer = allQuestion.list[questionNumber].answer
         
-//        if answer == pickedAnswer{
-//            print("You got it!")
-//            score += 1
-//            updateUI()
-//            ProgressHUD.showSuccess("Correct")
-//        }
-//        else
-//        {
-//            print("Wrong!")
-//            ProgressHUD.showError("Wrong")
-//        }
-//
+        if answer == pickedAnswer{
+            print("You got it!")
+            score += 1
+            updateUI()
+            ProgressHUD.showSuccess("Correct")
+        }
+        else
+        {
+            print("Wrong!")
+            ProgressHUD.showError("Wrong")
+        }
+
         
         
     }
